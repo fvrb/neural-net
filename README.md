@@ -13,6 +13,7 @@ Following arguments need to be provided:
 * train/test - path to train/test data
 * nn - architecture of neural net, in the format: (number of layers)(activation function) for each layer, separated with "-"
 * popsize - population size
+* elitism - number of best individuals to retain
 * p - probability of mutation
 * K - stdev of mutation
 * iter - number of iterations
