@@ -1,5 +1,5 @@
 # neural-net
-This project features implementation of a simple feedforward neural network combined with an evolutionary algorithm for optimization, written in Java.
+This project features implementation of a simple feedforward neural network combined with an evolutionary algorithm for optimization, written in Java. In the genetic algorithm, an individual corresponds to a flattened array of the neural network's parameters.
 ## Features
 * The neural network architecture is fully customizable: user defines the number of layers and activation functions per layer
 * Roulette wheel selection is used to probabilistically select individuals based on their fitness
