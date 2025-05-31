@@ -7,7 +7,7 @@ This project features implementation of a simple feedforward neural network comb
 ## How to run
 This is an example of CLI arguments passed to application:
 ```bash
---train train.txt --test test.txt --nn 5s-5s --popsize 10 --elitism 1 --p 0.1 --K 0.1 --iter 10000
+--train sine_train.txt --test sine_test.txt --nn 5s-5s --popsize 10 --elitism 1 --p 0.1 --K 0.1 --iter 10000
 ```
 Following arguments need to be provided:
 * train/test - path to train/test data
